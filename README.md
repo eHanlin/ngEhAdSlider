@@ -44,6 +44,19 @@ $scope.ads = [{
 $scope.time = 3000
 ```
 
+## Attributes
+
+####target
+
+```html
+target="_blank"
+```
+
+####photoPath
+```
+photo-path="http://example.com/"
+```
+
 ## DEMO
 
 ```bash

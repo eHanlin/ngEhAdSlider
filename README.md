@@ -1,4 +1,4 @@
-ngEhPopupImage
+ngEhAdSlider
 ===================================
 
 The ad slider is like gif feature.

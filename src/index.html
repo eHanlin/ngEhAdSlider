@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="eHanlin">
+<head>
+  <meta charset="UTF-8">
+  <title>ngEhAdSlider</title>
+  <style>
+  </style>
+</head>
+<body ng-controller="adCtrl">
+  <h3>ngEhAdSlider</h3>
+  <div style="width:250px;" time="time" ng-eh-ad-slider data="ads" target="_blank"></div>
+  <script src="angular/angular.js"></script>
+  <script src="ngEhAdSlider.js"></script>
+  <script>
+    function adCtrl( $scope ){
+      $scope.ads = [{
+        photo:"2670594645_c521fd3dbd_n.jpg",
+        url:"https://www.flickr.com/photos/tobbymailbox/2670594645/in/photolist-54ZuYD-54ZuKg-hK9MhM-4utGZs-hKahe5"
+      },{
+        photo:"sunset_chimneysP9166348.jpg",
+        url:"https://www.flickr.com/photos/hysaint/2291338108/in/photolist-54ZuYD-54ZuKg-hK9MhM-4utGZs-hKahe5/"
+      }];
+      $scope.time = 3000
+    }
+  </script>
+</body>
+</html>
+

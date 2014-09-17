@@ -1,6 +1,6 @@
 {
   "name": "ng-eh-ad-slider",
-  "version": "0.0.2",
+  "version": "0.0.2.1",
   "main": "dist/ngEhAdSlider.js",
   "devDependencies": {
     "gulp": "^3.6.0",
